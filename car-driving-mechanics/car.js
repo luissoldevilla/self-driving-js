@@ -36,6 +36,10 @@ class Car {
         if(this.speed<-this.maxSpeed/2){
             this.speed=-this.maxSpeed/2;
         }
+
+        if(this.speed>0){
+            this.speed-=this.friction;
+        }
     }
 }
 
