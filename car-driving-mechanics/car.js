@@ -32,6 +32,10 @@ class Car {
         if(this.speed>this.maxSpeed){
             this.speed=this.maxSpeed;
         }
+
+        if(this.speed<-this.maxSpeed/2){
+            this.speed=-this.maxSpeed/2;
+        }
     }
 }
 
