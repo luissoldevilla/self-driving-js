@@ -7,4 +7,8 @@ class Controls{
 
         this.#addKeyboardListeners();
     }
+
+    #addKeyboardListeners(){
+
+    }
 }
