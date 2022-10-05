@@ -9,6 +9,10 @@ class Controls{
     }
 
     #addKeyboardListeners(){
-
+        document.onkeydown=(event)=>{
+            switch(event.key){
+                
+            }
+        }
     }
 }
