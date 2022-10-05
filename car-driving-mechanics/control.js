@@ -11,7 +11,9 @@ class Controls{
     #addKeyboardListeners(){
         document.onkeydown=(event)=>{
             switch(event.key){
-                
+                case "ArrowLeft":
+                    this.left=true;
+                    break;
             }
         }
     }
