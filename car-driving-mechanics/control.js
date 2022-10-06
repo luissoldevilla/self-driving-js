@@ -20,6 +20,9 @@ class Controls{
                 case "ArrowUp":
                     this.forward=true;
                     break;
+                case "ArrowDown":
+                    this.reverse=true;
+                    break;
             }
         }
     }
