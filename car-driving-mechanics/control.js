@@ -25,5 +25,9 @@ class Controls{
                     break;
             }
         }
+
+        document.onkeyup=(event)=>{
+            
+        }
     }
 }
