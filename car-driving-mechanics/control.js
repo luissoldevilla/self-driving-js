@@ -16,7 +16,10 @@ class Controls{
                     break;
                 case "ArrowRight":
                     this.right=true;
-                    break;    
+                    break;
+                case "ArrowUp":
+                    this.forward=true;
+                    break;
             }
         }
     }
