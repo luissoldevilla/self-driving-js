@@ -27,7 +27,11 @@ class Controls{
         }
 
         document.onkeyup=(event)=>{
-            
+            switch(event.key){
+                case "ArrowLeft":
+                    this.left=false;
+                    break;
+            }
         }
     }
 }
