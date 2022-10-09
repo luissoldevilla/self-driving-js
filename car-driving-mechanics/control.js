@@ -31,6 +31,9 @@ class Controls{
                 case "ArrowLeft":
                     this.left=false;
                     break;
+                case "ArrowRight":
+                    this.right=false;
+                    break;
             }
         }
     }
