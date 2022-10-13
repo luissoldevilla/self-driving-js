@@ -33,5 +33,11 @@ class Road {
     draw(ctx) {
         ctx.lineWidth=5;
         ctx.strokeStyle="white";
+
+        // Loop for drawing
+        for(let i=1;i<=this.laneCount-1;i++){
+
+        }
+
     }
 }
