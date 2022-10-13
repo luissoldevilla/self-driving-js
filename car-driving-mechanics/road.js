@@ -21,10 +21,16 @@ class Road {
             [topRight,bottomRight]
         ];
 
-        getLaneCenter(laneIndex){
-            const laneWidth=this.width/this.laneCount;
-            return this.left+laneWidth/2+
-                Math.min(laneIndex,this.laneCount-1)*laneWidth;
-        }
+        
+    }
+
+    getLaneCenter(laneIndex){
+        const laneWidth=this.width/this.laneCount;
+        return this.left+laneWidth/2+
+            Math.min(laneIndex,this.laneCount-1)*laneWidth;
+    }
+
+    draw(ctx) {
+        
     }
 }
