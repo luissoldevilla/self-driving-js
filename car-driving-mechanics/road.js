@@ -36,7 +36,11 @@ class Road {
 
         // Loop for drawing
         for(let i=1;i<=this.laneCount-1;i++){
-
+            const x=lerp(
+                this.left,
+                this.right,
+                i/this.laneCount
+            );
         }
 
     }
