@@ -78,7 +78,7 @@ class Car {
         );
 
         ctx.fill();
-
+                // restoring 
         ctx.restore();
     }
 }
